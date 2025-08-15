@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between items-center px-8 py-4 bg-white shadow">
+  <nav class="flex justify-between items-center px-8 py-4 glassmorphism fixed w-full z-50">
     <div class="text-xl font-bold">JobBox</div>
     <ul class="flex gap-6 text-gray-600 items-center">
       <li><router-link to="/">Home</router-link></li>
@@ -9,7 +9,7 @@
         <li>
           <router-link
             to="/register"
-            class="bg-blue-500 text-white px-4 py-2 rounded"
+            class="bg-gray-800 text-white px-4 py-2 rounded"
           >
             Sign Up
           </router-link>
@@ -63,9 +63,18 @@ export default {
       localStorage.removeItem("token");
       localStorage.removeItem("user");
       this.user = null;
-      this.$router.push("/login");
       window.location.reload(); // reload agar navbar update
     }
   }
 };
 </script>
+
+<style>
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+</style>
