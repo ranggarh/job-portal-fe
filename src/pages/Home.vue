@@ -4,7 +4,7 @@
     <HeroSection />
     <CategoryList />
 
-    <section class="py-12 bg-gray-50">
+    <section class="py-12 bg-blue-50">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-2xl font-bold mb-6">Jobs of the day</h2>
 

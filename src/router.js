@@ -10,9 +10,11 @@ import DashboardJob from './pages/DashboardJob.vue';
 import LayoutAdministrator from './pages/LayoutAdministrator.vue';
 import DashboardUser from './pages/DashboardUser.vue';
 import DashboardRole from './pages/DashboardRole.vue';
+import FindJob from './pages/FindJob.vue';
 
 const routes = [
   { path: '/', component: Home },
+  { path: '/jobs', name: 'FindJob', component: FindJob },
   { path: '/job/:id', name: 'JobDetail', component: JobDetail, props: true },
   { path: '/job/:id/apply', name: 'Apply', component: Apply, props: true },
   { path: '/login', component: Login },

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 py-30">
+  <section class="bg-blue-50 py-30">
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center px-4">
       <div>
         <p class="text-gray-600 mb-2">Any industry, Any location, Any experience level 🏆</p>
@@ -30,10 +30,10 @@
         <div>
           <p class="font-medium mb-3">Our more candidates</p>
           <div class="flex -space-x-3">
-            <img src="/person1.jpg" alt="candidate" class="w-12 h-12 rounded-full border-2 border-white"/>
-            <img src="/person2.jpg" alt="candidate" class="w-12 h-12 rounded-full border-2 border-white"/>
-            <img src="/person3.jpg" alt="candidate" class="w-12 h-12 rounded-full border-2 border-white"/>
             <img src="/person4.jpg" alt="candidate" class="w-12 h-12 rounded-full border-2 border-white"/>
+            <img src="/person7.jpg" alt="candidate" class="w-12 h-12 rounded-full border-2 border-white"/>
+            <img src="/person6.jpg" alt="candidate" class="w-12 h-12 rounded-full border-2 border-white"/>
+            <img src="/person8.jpeg" alt="candidate" class="w-12 h-12 rounded-full border-2 border-white"/>
             <span class="w-12 h-12 rounded-full border-2 border-white bg-gray-100 flex items-center justify-center text-sm font-medium text-gray-500">50+</span>
           </div>
         </div>
@@ -48,7 +48,7 @@
         
         <div class="absolute top-4 right-4 bg-white rounded-xl p-3 shadow-lg flex items-center gap-3">
           <div class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
-            <img src="/person1.jpg" alt="Google" class="w-10 h-10 rounded-full"/>
+            <img src="/person7.jpg" alt="Google" class="w-10 h-10 rounded-full"/>
           </div>
           <div>
             <p class="font-medium">Rangga Raditya Hariyanto</p>

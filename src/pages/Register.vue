@@ -41,7 +41,7 @@
 
           <button 
             type="submit" 
-            class="w-full bg-gray-800 text-white py-3 rounded-lg hover:bg-gray-900 transition-colors duration-300"
+            class="cursor-pointer w-full bg-gray-800 text-white py-3 rounded-lg hover:bg-gray-900 transition-colors duration-300"
           >
             Create Account
           </button>

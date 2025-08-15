@@ -1,9 +1,6 @@
 <template>
   <div class="bg-white p-4 rounded shadow">
-    <div class="flex justify-between items-center mb-4">
-      <h2 class="text-lg font-semibold">Job Listings</h2>
-      <button @click="$emit('add-job')" class="bg-blue-500 text-white px-4 py-2 rounded cursor-pointer">+ Add Job</button>
-    </div>
+    
     <vue-good-table
       :columns="columns"
       :rows="jobs"
