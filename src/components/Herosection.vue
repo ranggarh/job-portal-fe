@@ -22,7 +22,7 @@
               class="w-full p-2 focus:outline-none"
             />
           </div>
-          <button class="bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-900 font-medium">
+          <button class="cursor-pointer bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-900 font-medium">
             Get Started
           </button>
         </div>

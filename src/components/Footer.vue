@@ -4,7 +4,7 @@
       
       <!-- Company Info -->
       <div>
-        <h3 class="text-white text-lg font-semibold mb-4">JobBox</h3>
+        <h3 class="text-white text-lg font-semibold mb-4">Jobby By Rungs</h3>
         <p class="text-sm">
           Your trusted job portal platform. Helping job seekers and employers connect faster and easier.
         </p>
@@ -25,15 +25,15 @@
       <div>
         <h3 class="text-white text-lg font-semibold mb-4">Contact Us</h3>
         <ul class="text-sm space-y-2">
-          <li>Email: <a href="mailto:support@jobbox.com" class="hover:text-blue-400">support@jobbox.com</a></li>
-          <li>Phone: +62 812-3456-7890</li>
+          <li>Email: <a href="mailto:support@jobbybyrungs.com" class="hover:text-blue-400">support@jobbybyrungs.com</a></li>
+          <li>Phone: +62 813-3101-6271</li>
           <li>Address: Surabaya, Indonesia</li>
         </ul>
       </div>
 
     </div>
     <div class="text-center text-xs text-gray-500 mt-8 border-t border-gray-700 pt-4">
-      &copy; {{ new Date().getFullYear() }} JobBox. All rights reserved.
+      &copy; {{ new Date().getFullYear() }} Jobby By Rungs. All rights reserved.
     </div>
   </footer>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <nav class="flex justify-between items-center px-8 py-4 glassmorphism fixed w-full z-50">
-    <div class="text-xl font-bold">JobBox</div>
+    <div class="text-xl font-bold">Jobby</div>
     <ul class="flex gap-6 text-gray-600 items-center">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/jobs">Find a Job</router-link></li>
@@ -17,17 +17,17 @@
       </template>
       <template v-else>
         <li class="relative group">
-          <span class="font-semibold text-blue-600 cursor-pointer">
+          <span class="font-bold text-gray-800 cursor-pointer">
             {{ user.name }}
           </span>
           <div
-            class="absolute right-0 mt-2 w-32 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-10"
+            class="absolute right-0 mt-2 w-32 bg-white  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-10"
           >
             <button
               @click="logout"
-              class="block w-full text-left px-4 py-2 hover:bg-gray-100"
+              class="block w-full text-left px-4 py-2 hover:bg-gray-100 cursor-pointer"
             >
-              Logout
+              <p class="text-red-800 font-semibold">Logout</p>
             </button>
           </div>
         </li>
